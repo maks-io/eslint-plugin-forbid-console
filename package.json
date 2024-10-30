@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-forbid-console",
+  "version": "1.0.0",
+  "description": "ESLint Plugin to forbid usage of console + optionally display custom message",
+  "main": "lib/index.js",
+  "repository": "git@github.com:maks-io/eslint-plugin-forbid-console.git",
+  "author": "Markus Kurzmann <markus@kurzmann.io>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint plugin",
+    "console",
+    "console.log",
+    "console.warn",
+    "console.error",
+    "console.info",
+    "log",
+    "logger"
+  ],
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "yarn nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  }
+}
